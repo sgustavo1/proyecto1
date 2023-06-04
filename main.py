@@ -27,3 +27,5 @@ train_model(model, train_loader, criterion, optimizer, num_epochs)
 # Evaluar el modelo en el conjunto de prueba
 accuracy = evaluate(model, test_loader)
 print(f'Precisión en el conjunto de prueba: {accuracy}')
+
+
